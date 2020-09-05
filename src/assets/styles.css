@@ -1,0 +1,70 @@
+.outer-box {
+    width: 500px;
+    margin: 2% auto;
+}
+
+.box {
+    background: #500e50;
+    color: white;
+    width: 100%;
+    height: 170px;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.form-addTask {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-addTask {
+    background: cornflowerblue;
+}
+
+.task-conteiner {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: lightgrey;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 15px 15px 15px 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.line-true {
+    text-decoration: line-through;
+    color: green;
+}
+
+.green {
+    color: yellowgreen;
+}
+
+.blue {
+    color: rgb(33, 169, 211);
+}
